@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Search bar</title>
+</head>
+<body>
+<center>
+    <form name="search" method="post" action="../insertuser/">
+        {% csrf_token %}
+        <pre>
+    Search : <input type="text" name="tsearch" value="" width="200"><br>
+            <button type="button">Click Me!</button>
+        </pre>
+    </form>
+</center>
+
+</body>
+</html>
